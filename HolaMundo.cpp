@@ -1,10 +1,13 @@
 #include <iostream>
-
-/* run this program using the console pauser or add your own getch, system("pause") or input loop */
-
-int main(int argc, char** argv) {
+#include <string.h>
+using namespace std;
+int main(){
+	char nombre[10];
 	
-		printf("HOLA MUNDO!!!!");
-
+		printf("HOLA MUNDO!!!!\n");
+		printf("Ingrese su nombre \n");
+		cin>>nombre;
+		cout<<"hola\t"<<nombre<<endl;
 	return 0;
 }
+
